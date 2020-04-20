@@ -1,0 +1,110 @@
+body {
+  background-color: #eee;
+  color: #555;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+.todolist {
+  background-color: #FFF;
+  padding: 20px 20px 10px 20px;
+  width: 600px;
+  margin: 30px auto;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  position: relative;
+}
+.todolist h1 {
+  margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+li.ui-state-default {
+  background: #fff;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+.radio, .checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.radio label, .checkbox label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+  cursor: pointer;
+}
+.radio label, .checkbox label {
+ padding-left: 0px;
+ }
+ .radio label input, .checkbox label input{
+  position: relative;
+  top: 2px;
+  margin-right: 6px;
+}
+footer {
+  border-top: 1px solid #ddd;
+  background-color: #F4FCE8;
+  margin: 0 -20px -10px -20px;
+  padding: 12px 20px;
+  position: relative;
+  color: #777;
+}
+footer .buttons {
+  border-right: 1px solid #ccc;
+  margin-right: 15px;
+  padding-right: 10px;
+  height: 20px;
+}
+.buttons .button:hover, .buttons .button.selected {
+  opacity: 1;
+  border-color: #ddd;
+}
+.buttons .add {
+  font-weight: bold;
+}
+.buttons .search {
+  padding-left: 10px;;
+}
+.filters {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.filters li {
+  display: inline-block;
+}
+.filters li span {
+  cursor: pointer;
+  color: inherit;
+  margin: 3px;
+  padding: 4px 8px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+.filters li span.selected {
+  border-color: rgba(175, 47, 47, 0.2);
+  color: #555;
+}
+.todolist .info {
+  position: absolute;
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  color: #999;
+  text-align: center;
+}
+.notodo{
+    justify-content: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
