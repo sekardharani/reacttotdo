@@ -9,10 +9,14 @@ export default function TodoList() {
     let todoList = todolist.newItem.map((item, i) => {
 
         console.log(item);
+        const taskaction = (event) => {
+            console.log(event.currentTarget.id)
+            
+        }
         return (
-            <li key={i} className="todo-item ui-state-default pending">
+            <li key={item.id} id={item.id} className= {item.completed ? "todo-item ui-state-default completed": "todo-item ui-state-default pending"} onClick={taskaction}>
                 <div className="checkbox">
-                    <label>
+                    <label >
                         <input type="checkbox" value="on" />{item.text}
                     </label>
                 </div>

@@ -108,3 +108,7 @@ footer .buttons {
     padding: 10px 0;
     font-weight: bold;
 }
+li.completed label {
+  text-decoration: line-through;
+  color: #aaa;
+}

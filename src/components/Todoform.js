@@ -16,9 +16,7 @@ export default function Todoform() {
                 text: NewTodo
             };
             console.log(NewTodoObject)
-            todolist.Itemdispatch("add_item",);
-            todolist.newItem.push(NewTodoObject)
-            
+            todolist.Itemdispatch({type:"add_item",payload:NewTodoObject});
             console.log(todolist);
 
         }

@@ -22,7 +22,6 @@ import "jquery/dist/jquery"
 import "popper.js/dist/umd/popper"
 import 'bootstrap/dist/js/bootstrap';
 
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
